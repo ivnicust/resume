@@ -53,7 +53,7 @@ a {
 }
 a:hover {
   text-decoration: red;
-  font-size: 20px;
+  
 }
 a:active {
   color: blue;
