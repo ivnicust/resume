@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Иван, cv, resume">
+  <meta name="description" content="сайт - резюме Ивана Николаевича">
+  <title>Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <javascript src="script.js" defer></javascript>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Устюгов Иван Николаевич</h1>
+    <div class="info">
+      <img src="Avatar_ka.jpg" class="avatar" alt="Иван">
+      <div class="info-text">
+        <p>Ученик школы Result School</p>
+        <p>В свободное от работы время <em>люблю посидеть за компьютером</em></p>
+        <p>Хочу быть таким же <strong>крутым перцем в frontend'е</strong>, как преподаватель школы.</p>
+      </div>
+    </div>
+    </header>
+    <div class="links">
+      <h4>Список социальных сетей:</h4>
+      <p>Пока мне не чем похвастаться, поэтому использую ссылки на соцсети сенсея:</p>
+      <div class="links-item">
+        <a href="https://www.instagram.com/vladilen.minin/" target="_blank">instagram</a>
+        <a href="https://t.me/js_by_vladilen" target="_blank">Telegram</a>
+        <a href="https://www.youtube.com/c/VladilenMinin" target="_blank">Youtube</a>
+      </div>
+    </div>
+    <div class="card bg-green">
+      <h2>Мои хобби:</h2>
+        <ol calss="list">
+          <li>компьютерная графика</li>
+          <li>фотография</li>
+        </ol>
+    </div>
+    <div class="card bg-red">
+      <h2>Опыт работы</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>Рекламное агентство</td>
+            <td>Печатник</td>
+            <td>5 лет</td>
+          </tr>
+          <tr>
+            <td>Завод "Мотор-деталь"</td>
+            <td>Оператор-станочник</td>
+            <td>2 года</td>
+          </tr>
+          <tr>
+            <td>Швейная мастерская</td>
+            <td>Кладовщик</td>
+            <td>2 года</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card bg-yellow">
+      <h3>Связаться со мной</h3>
+        <form action="">
+          <fieldset>
+            <legend>Поля, обязательные для заполнения</legend>
+            <div>
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div>
+              <label for="email">Ваш e-mail</lable>
+              <input type="email" id="email"  placeholder="Введите email">
+            </div>
+          </fieldset>
+          <div>
+            <label for="message" class="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" cols="40" placeholder="Введите сообщение"></textarea>
+          </div>
+          <input type="submit" class="btn" value="Отправить сообщение">
+        </form>
+    </div>
+  </div>
+</body>
+</html>
